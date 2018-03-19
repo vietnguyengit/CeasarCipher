@@ -1,3 +1,6 @@
+/*
+	Author: Viet Nguyen
+*/
 #ifndef CEASAR_H_
 #define CEASAR_H_
 

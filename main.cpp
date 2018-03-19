@@ -1,3 +1,6 @@
+/*
+	Author: Viet Nguyen
+*/
 #include "ceasar.h"
 #include <iostream>
 #include <fstream>
@@ -9,4 +12,5 @@ int main(int argc, char* argv[]) {
 	ifstream fInput{ argv[1], ios::in | ios::binary };
 	ofstream fOutput{ argv[2], ios::out | ios::binary };
 	newCeasar.mechanism(fInput, fOutput);
+	cout << newCeasar;
 }
